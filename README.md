@@ -9,14 +9,14 @@ On deploy cats this file if context is change
 Options.
 
 ```ruby
-set :release_file, fetch(:release_file, 'doc/do_on_release.txt') // What file compare
-set :release_ask, fetch(:release_ask, true) // Pause deploy after cat changes release
+set :release_file, fetch(:release_file, 'doc/do_on_release.txt') # What file compare
+set :release_ask, fetch(:release_ask, true) # Pause deploy after cat changes release
 ```
 
 Add this line to your application's Gemfile:
 
     gem 'capistrano',  '~> 3.4'
-    gem 'capistrano-release', '~> 0.1'
+    gem 'capistrano-release', '~> 0.3'
 
 ## Usage
 
