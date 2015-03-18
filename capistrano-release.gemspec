@@ -3,7 +3,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |gem|
   gem.name          = "capistrano-release"
-  gem.version       = '0.2'
+  gem.version       = '0.3'
   gem.authors       = "Rustam Zagirov"
   gem.email         = "stammru@gmail.com"
   gem.description   = %q{Cat release file if it changes}
